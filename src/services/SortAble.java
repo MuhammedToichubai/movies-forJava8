@@ -1,4 +1,4 @@
-package interfaces;
+package services;
 
 import classes.Movie;
 
@@ -10,6 +10,6 @@ public interface SortAble {
 
     void sortByYear(List<Movie> movies);
 
-    void sortByDirector(List<Movie> movies);
+    void sortByDirectorName(List<Movie> movies);
 
 }
